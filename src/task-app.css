@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: clamp(1rem, 2vw + .5rem, 1.25rem);
+}
+
+.Layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    background-color: #0077cc;
+    padding: 1.5rem;
+}
+
+footer p {
+    padding-top: .5rem;
+    border-top: 1px solid #4444;
+
+}
+
+.task-tracker-container {
+    width: 30rem;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    border: .5px solid #cbe5f6;
+    margin: 3rem auto;
+    background-color: white;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+@media (max-width: 48rem) {
+    .task-tracker-container {
+        width: 25rem;
+    }
+}
+
+.header-sect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.shop-cart-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+    color: red;
+}
+
+.shop-cart-icon:hover {
+    transform: translateY(10px) scale(1.1);
+}
+
+.input-item {
+    width: 85%;
+    padding: .4rem .8rem;
+    font-size: 1rem;
+    border: 1px solid tomato;
+    border-radius: .4rem;
+}
+
+.add-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 1px solid;
+    margin-left: .4rem;
+    background: none;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 1rem;
+
+
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4rem 1.25rem;
+    font-size: 1rem;
+    background: #f4f7f9;
+    border-left: 4px solid #f1121d;
+    margin: 1.5rem 0;
+    font-size: 1.05rem;
+
+
+}
+
+
+.delete-btn {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    transition: 0.3s ease-in;
+    opacity: .5;
+}
+
+.complited {
+    text-decoration: line-through;
+    opacity: .6;
+}
+
+.note {
+    margin-top: 2rem;
+}
+
+@media(max-width: 480px) {
+    .delete-btn {
+        font-size: 1.15rem;
+        font-weight: 700;
+
+    }
+
+    ul li {
+        font-size: 1.25rem;
+        padding: .6rem 1.3rem;
+    }
+
+    .input-item {
+        width: 85%;
+        padding: .6rem .8rem;
+        font-size: 1.1rem;
+        border: 1px solid tomato;
+        border-radius: .4rem;
+    }
+
+}

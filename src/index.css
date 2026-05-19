@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+}
+
+.task-tracker-container {
+  width: 22rem;
+  text-align: center;
+  margin: 3rem auto;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid;
+  border-radius: .6rem;
+  padding: 1.25rem;
+}
+
+.input-item {
+  width: 80%;
+  padding: .4rem .8rem;
+  font-size: 1rem;
+}
+
+.add-icon {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid;
+  margin-left: .4rem;
+  background: none;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+ 
+}
+ul{
+  list-style-type: none;
+  
+  margin-top: 1rem;
+
+}
+
+
+
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.delete-btn:hover {
+  color: red;
+  transition: 0.3s ease-in;
+}
+
+.complited {
+  text-decoration: line-through;
+  opacity: .6;
+}
