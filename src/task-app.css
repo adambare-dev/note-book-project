@@ -155,4 +155,10 @@ ul li {
         border-radius: .4rem;
     }
 
+    .add-icon {
+        width: 2.25rem;
+        height: 2.25rem;
+       
+    }
+
 }
