@@ -55,9 +55,10 @@ footer p {
     background-color: #fff;
     transition: all 0.3s ease;
 }
-.search-con:focus-within{
+
+.search-con:focus-within {
     border-color: #3b82f6;
-   
+
 }
 
 .search-con .search-nput {
@@ -209,4 +210,14 @@ ul li {
 
     }
 
+    .search-con {
+        padding: .6rem .8rem;
+        font-size: 1.1rem;
+        border-radius: .4rem;
+
+    }
+
+}
+.note{
+    font-style: italic;
 }
