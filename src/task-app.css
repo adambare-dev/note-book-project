@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: #f3f4f6;
 
 }
 
@@ -44,6 +45,37 @@ footer p {
 
 }
 
+.search-con {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 85%;
+    padding: .5rem .8rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.search-con:focus-within{
+    border-color: #3b82f6;
+   
+}
+
+.search-con .search-nput {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    background: transparent;
+
+}
+
+.search-icon {
+    color: #9ca3af;
+    font-size: .95rem;
+    margin-left: .5rem;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
 @media (max-width: 48rem) {
     .task-tracker-container {
         width: 25rem;
@@ -70,10 +102,18 @@ footer p {
 
 .input-item {
     width: 85%;
-    padding: .4rem .8rem;
+    padding: .4rem 1rem;
     font-size: 1rem;
-    border: 1px solid tomato;
+    border: 1px solid;
     border-radius: .4rem;
+    transition: all 0.3s ease;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.input-item:focus {
+    border-color: tomato;
+    box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.2);
 }
 
 .add-icon {
@@ -84,11 +124,19 @@ footer p {
     background: none;
 }
 
+.add-icon:hover {
+    background-color: #ff4500;
+
+}
+
+.add-icon:active {
+    transform: scale(0.95);
+}
+
 .input-group {
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
-
 }
 
 ul {
@@ -158,7 +206,7 @@ ul li {
     .add-icon {
         width: 2.25rem;
         height: 2.25rem;
-       
+
     }
 
 }
