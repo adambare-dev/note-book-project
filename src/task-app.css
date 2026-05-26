@@ -48,6 +48,7 @@ footer p {
 .search-con {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: 1px solid;
     width: 85%;
     padding: .5rem .8rem;
@@ -177,11 +178,11 @@ ul li {
 
 .complited {
     text-decoration: line-through;
-    
-   background-color: #241c44;
-   /* background-color: #3d3071; */
-   background-color: rgb(138, 2, 249);
-   color: white;
+
+    background-color: #241c44;
+    /* background-color: #3d3071; */
+    background-color: rgb(138, 2, 249);
+    color: white;
 }
 
 .note {
@@ -216,12 +217,13 @@ ul li {
 
     .search-con {
         padding: .6rem .8rem;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
         border-radius: .4rem;
 
     }
 
 }
-.note{
+
+.note {
     font-style: italic;
 }
